@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Salarycalculator</string>
+    <string name="emptitle">Employee Salary Calculator</string>
+</resources>
