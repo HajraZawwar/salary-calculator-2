@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Salarycalculator</string>
     <string name="emptitle">Employee Salary Calculator</string>
+    <string name="empname">Employee Name</string>
+    <string name="empsal">Employee Salary</string>
+    <string name="emptax">Ammount of Tax</string>
+    <string name="salary">Net Salary    </string>
+    <string name="btnok">Calculate</string>
+
 </resources>
