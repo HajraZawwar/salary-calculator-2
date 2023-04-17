@@ -17,47 +17,44 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ed1=findViewById(R.id.empname);
-        ed2=findViewById(R.id.empsal);
-        ed3=findViewById(R.id.emptax);
-        ed1=findViewById(R.id.salary);
-        btn1=findViewById(R.id.btn1);
+
+        ed1 = findViewById(R.id.empsal);
+        ed2 = findViewById(R.id.emptax);
+        ed3 = findViewById(R.id.salary);
+        ed4 = findViewById(R.id.empname);
+        btn1 = findViewById(R.id.btn1);
 
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
 
-                empsal();
-            }
+                double salary = Double.parseDouble(ed1.getText().toString());
+                double tax;
 
+                if(salary > 200000)
+
+                {
+                    tax =  salary * 20/100;
+
+                }
+
+                else if(salary > 100000)
+                {
+
+                    tax =  salary * 10/100;
+                }
+
+                else
+                {
+                    tax = 0;
+                }
+
+                ed2.setText(String.valueOf(tax));
+                double netsal = salary - tax;
+                ed3.setText(String.valueOf(netsal));
             }
         });
 
-        public void empsal()
-        {
-
-            double salary = Double.parseDouble(ed2.getText().toString());
-            double tax, nsal;
-
-            if (salary> 500000)
-            {
-                tax= salary * 10/100;
-            }
-
-            else if(salary > 1000000 )
-            {
-                tax= salary * 20/100;
-            }
-
-            else
-            {  tax= 0;
-
-            }
-
-            ed3.setText(String.valueOf(tax));
-
-            nsal= salary-tax;
-
-            ed4.setText(String.valueOf(nsal));
-        }
+    }
+}
