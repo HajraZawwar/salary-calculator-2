@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         ed3=findViewById(R.id.emptax);
         ed1=findViewById(R.id.salary);
 
-        btn1=findViewById(R.id.btn1);
 
 
 
