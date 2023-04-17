@@ -27,7 +27,7 @@
                 android:gravity="center"
                 android:text="@string/emptitle"
                 android:textColor="@color/design_default_color_primary"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
 
@@ -44,7 +44,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30sp"
+                android:layout_marginStart="30sp"
                 android:text="@string/empname"
                 android:textColor="@color/black"
                 android:textSize="20sp"
@@ -70,7 +70,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30sp"
+                android:layout_marginStart="30sp"
                 android:text="@string/empsal"
                 android:textColor="@color/black"
                 android:textSize="20sp"
@@ -95,7 +95,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30sp"
+                android:layout_marginStart="30sp"
                 android:text="@string/emptax"
                 android:textColor="@color/black"
                 android:textSize="20sp"
@@ -119,7 +119,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30sp"
+                android:layout_Start="30sp"
                 android:text="@string/salary"
                 android:textColor="@color/black"
                 android:textSize="20sp"

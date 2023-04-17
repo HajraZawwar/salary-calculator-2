@@ -4,7 +4,7 @@
     <string name="empname">Employee Name</string>
     <string name="empsal">Employee Salary</string>
     <string name="emptax">Ammount of Tax</string>
-    <string name="salary">Net Salary    </string>
+    <string name="salary">Net Salary</string>
     <string name="btnok">Calculate</string>
 
 </resources>
